@@ -12,7 +12,6 @@ def login():
 def logout():
     return render_template("logout.html")
 
-
 @auth.route('/sign-up', methods=['GET', 'POST'])
 def sign_up():
     if request.method == 'POST':
